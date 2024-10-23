@@ -1,8 +1,7 @@
 "use client";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useState, useRef, useEffect } from "react";
-import "./app.css";
+import { useState, useRef } from "react";
 
 export default function Home() {
   const [minutes, setMinutes] = useState<number | string>("00");
