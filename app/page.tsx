@@ -41,7 +41,7 @@ export default function Home() {
   }
 
   function pauseTimer() {
-    clearInterval(intervalRef.current);
+    clearInterval(intervalRef.current); 
   }
 
   function resetTimer() {
